@@ -1,34 +1,36 @@
 /**
  * Global ambient declaration of various non javascript assets being imported into JS/TS
  */
-declare module "*.scss";
+declare module '*.scss';
 
-declare module "*.svg" {
+declare module '*.css';
+
+declare module '*.svg' {
   const src: string;
   export default src;
 }
 
-declare module "*.gif" {
+declare module '*.gif' {
   const src: string;
   export default src;
 }
 
-declare module "*.jpg" {
+declare module '*.jpg' {
   const src: string;
   export default src;
 }
 
-declare module "*.jpeg" {
+declare module '*.jpeg' {
   const src: string;
   export default src;
 }
 
-declare module "*.png" {
+declare module '*.png' {
   const src: string;
   export default src;
 }
 
-declare module "*.md" {
+declare module '*.md' {
   const src: string;
   export default src;
 }
