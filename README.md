@@ -29,11 +29,11 @@ In your `package.json` add the following at the root level:
 
 ```json
   "eslintConfig": {
-    "extends": "@scrowl/eslint-config"
+    "extends": "config-ts-react"
   },
-  "prettier": "@scrowl/eslint-config/prettier",
+  "prettier": "config-ts-react/prettier",
   "stylelint": {
-    "extends": "@scrowl/eslint-config/stylelint"
+    "extends": "config-ts-react/stylelint"
   }
 ```
 
